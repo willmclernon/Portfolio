@@ -15,7 +15,7 @@ img{
   display: block;
   margin:auto;
 }
-
+  /*Adjusted H1 size to be the top headline on each page, centered them and put in times new roman*/
 h1{
   font-size: 4em;
   color: #000;
@@ -24,13 +24,14 @@ h1{
   text-align: center;
 }
 
+/* Adjusted H2 size to make it sub-head size, centered them and put in times new roma*/
 h2{  
   font-size: 3em;
   color: #000;
   font-family: 'Times New Roman', Times, serif;
   border: 1px;
   text-align: center;}
-
+/* Adjusted H3 size to make my clips headlines smaller, centered them and put in Times New Roma*/
   h3{
   font-size: 2em;
   color: #000;
