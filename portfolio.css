@@ -4,20 +4,8 @@ body{
   background-color: lightblue;
 }
 
-h1{
-  font-size: 4em;
-  color: #000;
-  font-family: 'Times New Roman', Times, serif;
-  border: 1px;
-  text-align: center;
-}
 
-h2{  
-  font-size: 3em;
-  color: #000;
-  font-family: 'Times New Roman', Times, serif;
-  border: 1px;
-  text-align: center;}
+  /*this is a CSS comment*/
 
 .img-container{
   margin: auto;
@@ -71,6 +59,28 @@ h2{
   font-weight: bold;
 }
 
+h1{
+  font-size: 4em;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px;
+  text-align: center;
+}
+
+h2{  
+  font-size: 3em;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px;
+  text-align: center;}
+
+  h3{
+  font-size: 2em;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px;
+  text-align: center;}
+
 P{
   font-size:1.5em;
   line-height: 1.5em;
@@ -85,7 +95,9 @@ img {
   margin:auto; 
 }
 
-
+.yt {
+  width:500px;
+}
 
 
 #content{
