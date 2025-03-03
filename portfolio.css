@@ -1,3 +1,5 @@
+
+/*added padding to all pages on both sides, made the background light blue*/
 body{
   padding-left: 10%;
   padding-right: 10%;
@@ -24,14 +26,14 @@ h1{
   text-align: center;
 }
 
-/* Adjusted H2 size to make it sub-head size, centered them and put in times new roma*/
+/* Adjusted H2 size to make it sub-head size, centered them and put in times new roman*/
 h2{  
   font-size: 3em;
   color: #000;
   font-family: 'Times New Roman', Times, serif;
   border: 1px;
   text-align: center;}
-/* Adjusted H3 size to make my clips headlines smaller, centered them and put in Times New Roma*/
+/* Adjusted H3 size to make my clips headlines smaller, centered them and put in Times New Roman*/
   h3{
   font-size: 2em;
   color: #000;
@@ -40,29 +42,39 @@ h2{
   text-align: center;}
 
 
-/*desktop*/
+/*desktop--- adjusted width and margins for portfolio to work on website*/
 #content {
   width: 50%;
   margin: auto;
   line-height: 1.5em;
   font-size: 1.5em;
+
+  #form{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
 }
 
-/*phone*/
+/*phone---adjusted width to work with mobile devices*/
 @media (orientation: portrait) {
   #content {
       width: 100%;
       line-height: 1.5em;
       font-size: 1.5em;}
   #nav-bar {
-      flex-direction: column;
+      flex-direction: row;
   }
 }
 
+/* made nav-bar, made it horizontal by switching flex-direction*/
 #nav-bar {
   display: flex;
   flex-direction: row;
 }
+
+/* added margins to nav-button to improve spacing between each button*/
 
 .nav-button {
   margin: auto;
@@ -96,11 +108,19 @@ h2{
   border: 1px;
   text-align: center;}
 
+  /* increased font size and line height to make text more readable*/
 P{
   font-size:1.5em;
   line-height: 1.5em;
   padding bottom;40px;
 }
+/*created caption tag to differientiate in size with rest of text.*/
+caption{
+  font-size: 1em;
+  line-height: 1em;
+  padding-bottom: 40px;
+}
+
 
 .img-container {
   width:50%;
@@ -109,11 +129,10 @@ P{
 img {
   margin:auto; 
 }
-
+/* adjusted size for youtube video*/
 .yt {
   width:500px;
 }
-
 
 #content{
   width:50%;
@@ -128,37 +147,9 @@ img {
 #nav-button{
 margin: auto;
 }
-
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-/* Add a background color and some padding around the form */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+/* Created style for form to try to center google form, need some help on this. */
+#form{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
