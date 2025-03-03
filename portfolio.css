@@ -5,14 +5,10 @@ body{
   padding-right: 10%;
   background-color: lightblue;
 }
-
-
-  /*this is a CSS comment*/
-
 .img-container{
   margin: auto;
 }
-
+/* created image margin and bloc to center the photos*/
 img{
   display: block;
   margin:auto;
@@ -42,18 +38,12 @@ h2{
   text-align: center;}
 
 
-/*desktop--- adjusted width and margins for portfolio to work on website*/
+/*desktop--- adjusted width and margins for portfolio to work on  desktop website*/
 #content {
   width: 50%;
   margin: auto;
   line-height: 1.5em;
   font-size: 1.5em;
-
-  #form{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
   
 }
 
@@ -79,34 +69,13 @@ h2{
 .nav-button {
   margin: auto;
 }
+/*changed nav-button colour here to make it match the black text throughout the website */
 
 .nav-button a {
   color: black;
   text-decoration: none;
   font-weight: bold;
 }
-
-h1{
-  font-size: 4em;
-  color: #000;
-  font-family: 'Times New Roman', Times, serif;
-  border: 1px;
-  text-align: center;
-}
-
-h2{  
-  font-size: 3em;
-  color: #000;
-  font-family: 'Times New Roman', Times, serif;
-  border: 1px;
-  text-align: center;}
-
-  h3{
-  font-size: 2em;
-  color: #000;
-  font-family: 'Times New Roman', Times, serif;
-  border: 1px;
-  text-align: center;}
 
   /* increased font size and line height to make text more readable*/
 P{
@@ -121,14 +90,6 @@ caption{
   padding-bottom: 40px;
 }
 
-
-.img-container {
-  width:50%;
-}
-
-img {
-  margin:auto; 
-}
 /* adjusted size for youtube video*/
 .yt {
   width:500px;
@@ -138,6 +99,7 @@ img {
   width:50%;
   margin:auto;
 }
+
 #nav-bar {
   display: flex;
   flex-direction: row;
