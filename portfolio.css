@@ -109,13 +109,23 @@ caption{
 #nav-button{
 margin: auto;
 }
-/* Created style for form to try to center google form, need some help on this. */
-#form{
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
 #iframe{
   display:block;
   margin:auto;
+}
+/* Created CSS instagram section to center embed*/
+.ig {
+  display:block;
+  margin:auto;
+  width:75%
+
+}
+
+/* Adjusted margins for google form*/
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
